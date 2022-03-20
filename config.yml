@@ -2,3 +2,9 @@ logging:
   level: INFO
   loggers:
     com.shahjahan: DEBUG
+
+database:
+  driverClass: 'com.mysql.jdbc.Driver'
+  user: 'root'
+  password: 'abcd1234'
+  url:  'jdbc:mysql://localhost:3306/shahjahan'

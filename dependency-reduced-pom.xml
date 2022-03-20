@@ -109,6 +109,11 @@
         <type>pom</type>
         <scope>import</scope>
       </dependency>
+      <dependency>
+        <groupId>org.jdbi</groupId>
+        <artifactId>jdbi</artifactId>
+        <version>2.78</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
   <properties>
